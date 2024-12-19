@@ -168,3 +168,7 @@ if selected_years:
     # Mostrar el DataFrame con las sugerencias al final
     st.write("Resumen de variación de posiciones y sugerencias:")
     st.dataframe(df_position_variation[["SIEFORE"] + [year.replace("IRN", "Posición") for year in selected_years] + ["Variación en Posición", "Sugerencia"]])
+
+with st.sidebar:
+    st.markdown("## © Copyrith")
+    st.markdown("Desarrollado por **Javier Horacio Pérez Ricárdez**")

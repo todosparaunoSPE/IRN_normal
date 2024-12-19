@@ -171,4 +171,4 @@ if selected_years:
 
 with st.sidebar:
     st.markdown("## © Copyrith")
-    st.markdown("Desarrollado por **Javier Horacio Pérez Ricárdez**")
+    st.markdown("Desarrollado por: Javier Horacio Pérez Ricárdez")

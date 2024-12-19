@@ -50,7 +50,7 @@ data = {
 df = pd.DataFrame(data)
 
 # Configurar la aplicación de Streamlit
-st.title("Visualización de SIEFORE y IRN por año con posiciones")
+st.title("Visualización de SIEFORE e IRN por año con posiciones")
 
 # Sección de ayuda en la barra lateral
 with st.sidebar:
